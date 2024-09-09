@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #a1c3ff;
+    background-color: white;
 }
 
 img {
@@ -34,7 +34,8 @@ ul {
 }
 
 .navbar {
-    background-color: #1f2937;
+    /* #1f2937 - cor original do background */
+    background-color: #1f2937; 
     color: #fff;
     height: 60px;
 }
@@ -73,9 +74,9 @@ ul {
 
 .header {
     background-color: #1f2937;
-    min-height: 450px;
+    min-height: 400px;
     color: white;
-    padding: 70px;
+    padding: 40px;
 }
 
 .header h1 {
@@ -101,14 +102,26 @@ ul {
     word-wrap: break-word;
     white-space: normal;
     width: 400px;
+    justify-content: space-between;
 }
 
 .header .container .img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     background-color: grey;
     width: 500px;
     height: 200px;
+}
+
+.header .container button {
+    margin-top: 10px;
+    height: 30px;
+    background-color: #3882f6;
+    border: #3882f6;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
 }
