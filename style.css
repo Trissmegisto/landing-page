@@ -191,7 +191,59 @@ ul {
 }
 
 .quote .container .author {
-    font-weight: bolder;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 14px;
     text-align: right;
+    margin-top: 5px;
+}
+
+.signup .container{
+    margin-top: 80px;
+    height: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    align-items: center;
+}
+
+.signup .container .text h6 {
+    font-size: 18px;
+}
+
+.signup .container .text p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.signup .container .signUpButton {
+    background-color: #2777f7;
+    border-radius: 2px solid white;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    margin-top: 80px;
+    color: lightgrey;
+    height: 70px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container .footerInfo {
+    font-size: 15px;
+    margin-top: 30px;
 }
