@@ -125,3 +125,49 @@ ul {
     font-weight: bold;
     font-size: 15px;
 }
+
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes .container .boxesInfo { 
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900px;
+}
+
+.boxes .container .subWithImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 15px;
+}
+
+.boxes .container .subWithImage .element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes .container .subWithImage .element h6{
+    height: 100px;
+    width: 105px;
+    background-color: white;
+    border: 3px solid rgb(25, 131, 218);
+    border-radius: 10px;
+}
+
+.boxes .container .subWithImage .element p {
+    color: #4e5969;
+    width: 110px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
