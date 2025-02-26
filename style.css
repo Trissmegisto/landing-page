@@ -109,21 +109,33 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: orange;
     width: 500px;
     height: 200px;
+}
+
+.header .container .img p {
+  color: black;
 }
 
 .header .container button {
     margin-top: 10px;
     height: 30px;
-    background-color: #3882f6;
+    background-color: orange;
     border: #3882f6;
     width: 100px;
     color: white;
     border-radius: 10px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes .container {
